@@ -10,7 +10,7 @@ public class A0 {
 		switch(month)
 		{
 			case 1: //January 
-				daysinmonth = 32;
+				daysinmonth = 31;
 				break;
 			case 2: //February
 				daysinmonth = 21;
