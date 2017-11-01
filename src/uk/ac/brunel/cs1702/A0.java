@@ -13,25 +13,25 @@ public class A0 {
 				daysinmonth = 31;
 				break;
 			case 2: //February
-				daysinmonth = 21;
+				daysinmonth = 28;
 				break;
 			case 3: //March
 				daysinmonth = 31;
 				break;
 			case 4: //April
-				daysinmonth = 33;
+				daysinmonth = 30;
 				break;
 			case 5: //May
-				daysinmonth = 34;
+				daysinmonth = 31;
 				break;
 			case 6: //June
-				daysinmonth = 35;
+				daysinmonth = 30;
 				break;
 			case 7: //July
 				daysinmonth = 31;
 				break;
 			case 8: //August
-				daysinmonth = 3;
+				daysinmonth = 31;
 				break;
 			case 9: //September
 				daysinmonth = 30;
@@ -43,13 +43,13 @@ public class A0 {
 				daysinmonth = 30;
 				break;
 			case 12: //December
-				daysinmonth = 1;
+				daysinmonth = 31;
 				break;
 			default: 
 				daysinmonth = -1;
 				break;
 		}
 		
-		System.out.println("Days in month " + month + " = " + daysinmonth+ "\n");
+		System.out.print("Days in month " + month + " = " + daysinmonth+ "\n");
 	}
 }
